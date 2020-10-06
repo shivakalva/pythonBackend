@@ -1,8 +1,9 @@
+################ USE THE METHOD FOR STORING THE PAYLOAD DATA ########################################
+
 def addpayload(isbn):
     body = {
-
         "name": "Learn Appium Automation with Java",
-        "isbn": "hli",
+        "isbn": isbn,
         "aisle": "124",
         "author": "John foe"
     }
