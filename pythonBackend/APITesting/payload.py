@@ -2,7 +2,7 @@
 
 def addpayload(isbn):
     body = {
-        "name": "Learn Appium Automation with Java",
+        "name": "Learn  Automation with Java",
         "isbn": isbn,
         "aisle": "124",
         "author": "John foe"
