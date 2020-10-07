@@ -1,5 +1,5 @@
 class oops:
-    def __init__(self, a, b, c):
+    def __init__(self, a, b):
         self.firstname = a
         self.lastname = b
 

@@ -7,7 +7,6 @@ class first:
     def getdetails(self):
         print("details are" + " " + self.a, self.b, self.age)
 
-
 class second(first):
     height = ''
 

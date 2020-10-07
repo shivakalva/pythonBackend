@@ -7,6 +7,8 @@ with open("C:\\MySpace\\COMPLETED\\datas.json") as p:
             print(check['city'])
             assert check['city'] == 'San Jone'
 
+#######Comparing the 2 json file #######################
+
 with open("C:\\MySpace\\COMPLETED\\data.json") as f:
     cont = json.load(f)
     assert content == cont
