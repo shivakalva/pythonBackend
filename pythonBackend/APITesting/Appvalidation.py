@@ -1,13 +1,14 @@
 import requests
 import json
-
-from APITesting.payload import addpayload
+from APITesting.payload import *
 from utilties.configuration import *
 from utilties.resources import *
 
+
 URL = getconfig()['API']['endpoint']+ ApiResources.addBook
 headers = {"Content-type": "application/json"}
-addBook_response = requests.post(URL, json=addpayload("abcd"), headers=headers, )
+query = "select * from customerinfo"
+addBook_response = requests.post(URL, json=getpayloadFromdb("query"), headers=headers, )
 
 response_json = addBook_response.json()
 print(type(response_json))
