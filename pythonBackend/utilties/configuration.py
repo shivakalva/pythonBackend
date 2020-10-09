@@ -9,10 +9,8 @@ def getconfig():
     print(config)
     return config
 
-
 def getpwd():
     return "Pumba@291"
-
 
 def getconnection():
     try:
