@@ -1,5 +1,5 @@
 class Employee:
-    name = "Durga"
+    name = "Durga"                         # Class attributes, they are same for all the instances of the classes
     Designation = "Omnipotent"
     PowershownthisWeek = 25
 
