@@ -1,6 +1,6 @@
 class square:
     def __init__(self, side):
-        self.side = side
+        self.side = sid
 
     def __add__(self, other):
         return ((4 * squareOne.side) + (5 * squareTwo.side))
